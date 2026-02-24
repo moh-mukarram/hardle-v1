@@ -1,0 +1,4 @@
+UserProfile: ['id', 'user', 'tier', 'total_points', 'rank', 'last_active_at']
+GameSession: ['id', 'user', 'target_word', 'guesses', 'status', 'mode', 'created_at', 'updated_at', 'word_ref', 'mode_ref', 'started_at', 'ended_at', 'elapsed_time', 'daily_cycle', 'session_key']
+Word: ['sessions', 'id', 'value', 'active_date', 'created_at']
+ConfigMode: ['sessions', 'mode', 'reward_points', 'penalty_points', 'time_limit_seconds', 'signal_intel_level']

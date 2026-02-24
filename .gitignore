@@ -1,0 +1,63 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+db.sqlite3
+*.sqlite3
+staticfiles/
+
+# Node / Svelte
+node_modules/
+.svelte-kit/
+dist/
+
+# Env
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Verification Scripts
+verify_production_readiness.py
+test_logic.py
+test_points.py
+
+.geminiignore
+.claudeignore
+
+# --- AI & Project Intelligence (DO NOT IGNORE) ---
+# We explicitly want to track these for our "Save Game" logic
+!ai_stff/
+!.agents/rules/
+!.ai_context/
+
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+db.sqlite3
+/static/
+/media/
+
+# --- Node / Svelte ---
+node_modules/
+.svelte-kit/
+/build/
+/dist/
+.vercel/
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

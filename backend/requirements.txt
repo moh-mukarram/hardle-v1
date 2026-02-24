@@ -1,0 +1,7 @@
+django>=5.1
+django-ninja>=1.0.0
+pydantic>=2.0.0
+dj-database-url
+psycopg2-binary
+gunicorn
+django-cors-headers
